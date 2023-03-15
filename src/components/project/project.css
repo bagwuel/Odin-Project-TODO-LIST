@@ -1,0 +1,39 @@
+.project{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.projectname {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.projectname h1 {
+    font-size: 1.2rem;
+    flex: 40%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.projectname h1:hover {
+    overflow: visible;
+}
+
+.projectcontrols{
+    flex: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.projectcontrols > * {
+    margin-left: 5px;
+    text-align: center;
+    white-space: nowrap;
+
+}
+

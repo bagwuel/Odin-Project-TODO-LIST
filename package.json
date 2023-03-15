@@ -1,0 +1,27 @@
+{
+  "name": "odin-project-todo-list",
+  "version": "1.0.0",
+  "description": "This project will help to cement my knowledge of webpack(module bundling) and show case my command of javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagwuel/Odin-Project-TODO-LIST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagwuel/Odin-Project-TODO-LIST/issues"
+  },
+  "homepage": "https://github.com/bagwuel/Odin-Project-TODO-LIST#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

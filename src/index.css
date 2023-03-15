@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+body{
+    font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #7B726F;
+}
+.hide{
+    display: none;
+}
+.section {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FBC14D;
+    z-index: 2;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 2px rgb(32, 29, 29);
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: #1c1922cb;
+    color: whitesmoke;
+}
+
+#addproject {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#alltodos {
+    position: relative;
+    margin-top: 15px;
+}
+
+#project > * {
+    margin-bottom: 10px;
+}
+
+#project label {
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+
+#project input[name=Submit], #project .editbtn {
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#project .closebtndiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.project {
+    background-color: #D5D3D1;
+}
+
+.tododiv {
+    margin-top: 10px;
+    position: relative;
+}
+
+#todo, #project {
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+    width: 90%;
+    max-width: 700px;
+    background-color: #313031be;
+    padding: 25px;
+    color: whitesmoke;
+}
+
+#todo .closetodoformdiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#todo .title,
+#todo .description,
+#todo .dueDate,
+#todo .priority,
+#todo .notes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#todo .title > input,
+#todo .description > textarea,
+#todo .dueDate > input,
+#todo .priority > select,
+#todo .notes > textarea {
+    flex-basis: 60%;
+    margin-left: 10px;
+    justify-self: center;
+}
+
+#todo #submit,
+#todo .editbtn {
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+input:not(input[name=Submit]),
+select {
+    line-height: 1.5rem;
+}
+
+
